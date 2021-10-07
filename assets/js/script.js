@@ -9,7 +9,7 @@ function clickFunc() {
 }
 
 //destructured the array(convert array items into variables) on the parameters of the function using "[]"
-//by using the spread operator "..." allows us to receive diferent length of parameters in the function every time it is called
+//by using the rest operator "..." allows us to receive diferent length of parameters in the function every time it is called
 
 function makeSum([...args]) {
     let total = 0;
